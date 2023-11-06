@@ -1,0 +1,50 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background {
+  background-image: url('bg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Clouds of Hope LSF'; /* Name of your custom font */
+  src: url('fonts/f1.woff') format('woff'); /* Use the appropriate file format */
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+  opacity: 0;
+  font-family: 'Clouds of Hope LSF', sans-serif; /* Use the name of your custom font */
+  animation: fadeIn 2s forwards, fadeOut 2s 4s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
