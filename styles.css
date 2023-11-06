@@ -20,7 +20,7 @@ body, html {
 
 @font-face {
   font-family: 'Clouds of Hope LSF'; /* Name of your custom font */
-  src: url('fonts/f1.woff') format('woff'); /* Use the appropriate file format */
+  src: url('f1.woff') format('woff'); /* Use the appropriate file format */
 }
 
 h1 {
