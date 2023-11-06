@@ -26,9 +26,9 @@ body, html {
 h1 {
   font-size: 3em;
   color: white;
-  opacity: 0;
+  opacity: 0.4;
   font-family: 'Clouds of Hope LSF', sans-serif; /* Use the name of your custom font */
-  animation: fadeIn 2s forwards, fadeOut 2s 4s forwards;
+  animation: fadeIn 4s forwards, fadeOut 2s 4s forwards;
 }
 
 @keyframes fadeIn {
